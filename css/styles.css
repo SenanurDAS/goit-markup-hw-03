@@ -22,6 +22,7 @@ ul li {
     padding: 20px 0;
     display: flex;
     width: 1140px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .logo {
@@ -239,6 +240,7 @@ ul li {
     justify-content: space-between;
     flex-direction: row;
     padding: 120px;
+    gap: 24px;
 }
 
 .our-team {
@@ -287,8 +289,10 @@ ul li {
 .portfolio ul {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     padding: 120px;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
 }
 
 .our-portfolio {
