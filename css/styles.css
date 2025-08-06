@@ -159,7 +159,8 @@ ul li {
     letter-spacing: 4%;
     cursor: pointer;
     font-weight: medium;
-    padding: 32px 16px;
+    padding: 16px 32px;
+    border-radius: 4px;
 }
 
 .button:hover {
@@ -172,7 +173,8 @@ ul li {
     letter-spacing: 4%;
     cursor: pointer;
     font-weight: medium;
-    padding: 32px 16px;
+    padding: 16px 32px;
+    border-radius: 4px;
 }
 
 .p{
@@ -196,6 +198,7 @@ ul li {
     justify-content: space-between;
     flex-direction: row;
     padding: 120px;
+    gap: 24px;
 }
 
 .about ul li{
@@ -354,12 +357,16 @@ ul li {
     font-size: 16px;
     line-height: 1.5;
     width: 264px;
+    padding-top: 15px;
 }
 
 .footer {
     background-color: #2E2F42;
     flex-direction: row;
     padding: 120px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+    padding-top: 100px;
 }
 
 
